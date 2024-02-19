@@ -106,13 +106,13 @@ result1 = select_1()
 print(result1,"\n")
     
 print("Запит 2")     
-result2 = select_2('current')
+result2 = select_2('individual')
 
 # for r in result2:
 print(result2,"\n")
     
 print("Запит 3")     
-result3 = select_3('current')
+result3 = select_3('individual')
 for r in result3:
     print(r,"\n")
 
@@ -121,27 +121,27 @@ result4 = select_4()
 print(f"Cередній бал на потоці (по всій таблиці оцінок) {result4}","\n")
 
 print("Запит 5")     
-result5 = select_5('Derek Swanson')
+result5 = select_5('Kristin Martin')
 for r in result5:
     print(r,"\n")
        
 print("Запит 6")     
-result6 = select_6('Stephens and Sons')
+result6 = select_6('Horne-Sanchez')
 print(result6)
 
 print("Запит 7")     
-result7 = select_7('Stephens and Sons', 'current')
+result7 = select_7('Horne-Sanchez', 'individual')
 for r in result7:
     print(r,"\n")
     
 print("Запит 8")     
-result8 = select_8('Heather White')
+result8 = select_8('Kristin Martin')
 print(result8,"\n")
 
 print("Запит 9")     
-result9 = select_9('Kimberly Young')
+result9 = select_9('Sheila Sexton')
 print(result9,"\n")
     
 print("Запит 10")     
-result10 = select_10('Mark Dominguez', 'Derek Swanson')
+result10 = select_10('Sheila Sexton', 'Kristin Martin')
 print(result10,"\n")
