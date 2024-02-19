@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from models import Student, Group, Subject, Grade, Teacher
 
 # Підключення до бази даних
-engine = create_engine('sqlite:////Users/oleksandrarshinov/Desktop/Documents/Repository/SQL_alchemy_alembic/my_db')
+engine = create_engine('sqlite:////Users/oleksandrarshinov/Desktop/Documents/Repository/hw7/my_db')
 
 # Створення сесії
 Session = sessionmaker(bind=engine)
@@ -108,8 +108,8 @@ print(result1,"\n")
 print("Запит 2")     
 result2 = select_2('current')
 
-for r in result2:
-    print(r,"\n")
+# for r in result2:
+print(result2,"\n")
     
 print("Запит 3")     
 result3 = select_3('current')

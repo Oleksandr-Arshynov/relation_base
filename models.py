@@ -53,6 +53,5 @@ class Grade(Base):
     student = relationship("Student", back_populates="grades")
 
 
-engine = create_engine('sqlite:////Users/oleksandrarshinov/Desktop/Documents/Repository/SQL_alchemy_alembic/my_db')
-
+engine = create_engine('sqlite://///Users/oleksandrarshinov/Desktop/Documents/Repository/hw7/my_db')
 Base.metadata.create_all(engine)

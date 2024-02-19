@@ -6,8 +6,7 @@ import random
 from datetime import datetime, timedelta
 
 
-engine = create_engine('sqlite:////Users/oleksandrarshinov/Desktop/Documents/Repository/SQL_alchemy_alembic/my_db')
-
+engine = create_engine('sqlite://///Users/oleksandrarshinov/Desktop/Documents/Repository/hw7/my_db')
 Session = sessionmaker(bind=engine)
 session = Session()
 
